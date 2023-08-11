@@ -396,7 +396,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -411,7 +411,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "6-Camera-PCB.kicad_pro",
+    "filename": "Datta-OpenField-PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -490,6 +490,10 @@
     [
       "5f944be4-9883-4efb-9a3f-08f8440f04e4",
       ""
+    ],
+    [
+      "904fc076-1bbf-421d-992a-5b89a088a9d3",
+      "FemtoBucks"
     ]
   ],
   "text_variables": {}
