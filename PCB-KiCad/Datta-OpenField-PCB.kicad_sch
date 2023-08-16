@@ -1192,6 +1192,9 @@
   (junction (at 170.18 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 9f080b9c-fc3e-4f96-b31c-e059130c6769)
   )
+  (junction (at 116.84 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid af8f2374-5724-49c9-9bfc-4067e89fa814)
+  )
   (junction (at 200.66 68.58) (diameter 0) (color 0 0 0 0)
     (uuid bb2ed6d5-4b12-4c2c-98f7-55a65dabd463)
   )
@@ -1200,9 +1203,6 @@
   )
   (junction (at 243.84 40.64) (diameter 0) (color 0 0 0 0)
     (uuid d457b970-930c-4861-b431-47778ac48488)
-  )
-  (junction (at 114.3 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid e96f3de3-9f2d-464b-83ea-d0b24ab4e24f)
   )
   (junction (at 200.66 43.18) (diameter 0) (color 0 0 0 0)
     (uuid f065268f-c391-4632-aa3a-9c8cbbf054e6)
@@ -1228,6 +1228,10 @@
   (no_connect (at 106.68 105.41) (uuid f810824d-7673-4229-8110-0c8767c1c0f9))
   (no_connect (at 86.36 125.73) (uuid f870bfb4-3780-498a-87be-55759fa392de))
 
+  (wire (pts (xy 116.84 73.66) (xy 121.92 73.66))
+    (stroke (width 0) (type default))
+    (uuid 012e1ca6-22b6-48af-96fb-6a615ee9dbcf)
+  )
   (wire (pts (xy 243.84 40.64) (xy 251.46 40.64))
     (stroke (width 0) (type default))
     (uuid 058fd439-ff74-4008-b5c6-be9cffe7775a)
@@ -1356,6 +1360,10 @@
     (stroke (width 0) (type default))
     (uuid 4696f784-6b9a-42fe-8a44-6f18537ea2c7)
   )
+  (wire (pts (xy 127 162.56) (xy 132.08 162.56))
+    (stroke (width 0) (type default))
+    (uuid 4d79aed5-1440-42ed-8f63-172036dcf11a)
+  )
   (wire (pts (xy 33.02 91.44) (xy 50.8 91.44))
     (stroke (width 0) (type default))
     (uuid 4db8ffa6-546e-4ea7-8890-52462d8e0c5b)
@@ -1407,10 +1415,6 @@
   (wire (pts (xy 170.18 43.18) (xy 177.8 43.18))
     (stroke (width 0) (type default))
     (uuid 751dc51a-aa45-433a-ab60-29b47931f46b)
-  )
-  (wire (pts (xy 127 162.56) (xy 132.08 162.56))
-    (stroke (width 0) (type default))
-    (uuid 78b0aa0c-4969-4e5e-b81c-37a9fe2bbea2)
   )
   (wire (pts (xy 43.18 33.02) (xy 43.18 38.1))
     (stroke (width 0) (type default))
@@ -1512,7 +1516,7 @@
     (stroke (width 0) (type default))
     (uuid a144ada3-6472-4d7f-9f2b-06dfd4b9a1fd)
   )
-  (wire (pts (xy 106.68 73.66) (xy 114.3 73.66))
+  (wire (pts (xy 106.68 73.66) (xy 116.84 73.66))
     (stroke (width 0) (type default))
     (uuid a2d7421c-c221-45c7-9272-26f82f982d03)
   )
@@ -1604,10 +1608,6 @@
     (stroke (width 0) (type default))
     (uuid d0b2112f-147e-4e1b-bf0f-7dfe4242b872)
   )
-  (wire (pts (xy 114.3 73.66) (xy 121.92 73.66))
-    (stroke (width 0) (type default))
-    (uuid d12c2d5b-b7e1-4370-89bc-dd6c47ad13e4)
-  )
   (wire (pts (xy 33.02 60.96) (xy 50.8 60.96))
     (stroke (width 0) (type default))
     (uuid d141af6e-a87d-4c54-acf7-1f841373e039)
@@ -1698,15 +1698,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 036c097a-cdf1-4e7f-8279-389e70bc51e8)
   )
-  (label "LED-4" (at 109.22 86.36 0) (fields_autoplaced)
+  (label "LED-8" (at 109.22 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 06ae9ecf-b31a-4b22-b720-a50e49f67315)
+    (uuid 07dc4738-0450-4319-9743-40bdd037dfc8)
   )
   (label "Bas8-Trig" (at 35.56 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 095ea2cb-6152-403a-b9a0-d9116c1fbd07)
   )
-  (label "LED-9" (at 109.22 48.26 0) (fields_autoplaced)
+  (label "LED-2" (at 109.22 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0fd328ce-d341-4766-8edb-d9eb89bc02ea)
   )
@@ -1766,29 +1766,21 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3a35c422-1dac-4b48-ac6a-73d37c5b8f9a)
   )
-  (label "LED-12" (at 35.56 91.44 0) (fields_autoplaced)
+  (label "LED-5" (at 109.22 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3d30fa92-d4fe-496a-a86a-8fd8de2600e9)
+    (uuid 3c0a5687-9af5-41ee-933e-29a6ee0af9d3)
   )
   (label "Bas8-Trig" (at 198.12 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d6ba1f8-3b2a-4a26-8d0c-83f9742e9cd4)
   )
-  (label "LED-7" (at 109.22 53.34 0) (fields_autoplaced)
+  (label "LED-4" (at 109.22 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 49b157de-e95d-4795-900d-75ca8fe09cef)
-  )
-  (label "LED-2" (at 109.22 96.52 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4ff3d7b4-f0d7-473b-87da-9dbc8119304e)
   )
   (label "Bas5-Trig" (at 35.56 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 504b9580-6069-464e-97ba-4832ef30d7be)
-  )
-  (label "LED-5" (at 109.22 68.58 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 53ec7b77-4d41-4422-a483-759a11c989a7)
   )
   (label "Bas7-Trig" (at 35.56 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1805,10 +1797,6 @@
   (label "Bas3-Trig" (at 167.64 40.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65c54cc6-303e-471f-9181-a51017f6dfb2)
-  )
-  (label "LED-1" (at 35.56 96.52 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6668a8e1-c169-43b7-b1f8-7f6ab0ec1846)
   )
   (label "Bas7-Trig" (at 167.64 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1830,6 +1818,18 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 804ee64a-2c46-4aba-bea8-89bd36fc33e1)
   )
+  (label "LED-9" (at 109.22 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 81035c8c-88bb-4ae6-b4b0-07f83eda5b0f)
+  )
+  (label "LED-6" (at 109.22 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 82e5a118-cda8-49cf-a29e-28fc63e9f221)
+  )
+  (label "LED-12" (at 109.22 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8e2a2660-0794-472f-8d73-c885b8cfea0b)
+  )
   (label "3V3" (at 109.22 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9103dddd-650c-47b5-9435-b339b584a832)
@@ -1842,21 +1842,21 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9eb4d223-6944-46a1-8050-1578ee5ee9df)
   )
-  (label "LED-11" (at 35.56 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a49ba0ce-cb2a-49ef-ba0e-0b27a830f641)
-  )
   (label "Bas1-Trig" (at 167.64 27.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8b463f7-1275-4b94-a48b-8934bbbd5c45)
   )
-  (label "LED-6" (at 109.22 66.04 0) (fields_autoplaced)
+  (label "LED-7" (at 109.22 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ba1d9e3c-b35d-4ae0-beaf-5c4ec086f4cf)
+    (uuid ad4acfa9-1c23-42b2-85da-4c04147dec3a)
   )
-  (label "LED-8" (at 109.22 50.8 0) (fields_autoplaced)
+  (label "LED-3" (at 109.22 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd24ff16-a0df-40cd-bfe4-52bc1cf93db5)
+  )
+  (label "LED-11" (at 109.22 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c18e5334-b17a-492c-b30e-8d90419f75ba)
   )
   (label "Bas4-Trig" (at 35.56 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1874,6 +1874,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cdcc4707-e913-406a-9bf7-dd015f0a9fc1)
   )
+  (label "LED-10" (at 109.22 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d7d8b6d5-f956-4b59-a42f-4ca807ff9598)
+  )
   (label "Bas5-Aux" (at 167.64 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d9bf4869-746f-4605-a489-fda24adf6ad1)
@@ -1890,15 +1894,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e206ffa8-8f25-4a71-b579-3c977ee02718)
   )
-  (label "LED-3" (at 109.22 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e5801239-b787-45da-b75c-1d807a821910)
-  )
   (label "Bas5-Trig" (at 167.64 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa01e3ac-b54b-4a29-8d1d-fa117fec7abb)
   )
-  (label "LED-10" (at 109.22 45.72 0) (fields_autoplaced)
+  (label "LED-1" (at 109.22 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa6eb671-acfc-42db-bcb3-8e0b98d360fa)
   )
@@ -1931,13 +1931,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 182.88 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 108e9674-6a6e-433a-80d5-04028b7fa416)
-    (property "Reference" "J5" (at 182.88 58.42 0)
+    (property "Reference" "J13" (at 182.88 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 5" (at 185.42 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 182.88 53.34 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 182.88 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 53.34 0)
@@ -1949,7 +1949,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J5") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1982,7 +1982,7 @@
   (symbol (lib_id "power:GND") (at 116.84 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19b34389-5655-450d-a6a8-38194e8af9a0)
-    (property "Reference" "#PWR010" (at 116.84 46.99 0)
+    (property "Reference" "#PWR03" (at 116.84 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.6508 41.7265 0)
@@ -1998,7 +1998,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2007,7 +2007,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 172.72 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 261394cd-26a1-4601-a9a1-553bba2a95c3)
-    (property "Reference" "J9" (at 170.18 117.475 0)
+    (property "Reference" "J10" (at 170.18 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 170.18 120.015 0)
@@ -2024,7 +2024,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2033,7 +2033,7 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 259.08 48.26 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26cb6b67-79bc-44af-9403-273999144e5c)
-    (property "Reference" "J12" (at 265.43 48.895 0)
+    (property "Reference" "J26" (at 265.43 48.895 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Fan 2-A" (at 265.43 46.355 0)
@@ -2050,7 +2050,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J12") (unit 1)
+          (reference "J26") (unit 1)
         )
       )
     )
@@ -2059,7 +2059,7 @@
   (symbol (lib_id "power:GND") (at 243.84 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b01dbf9-42cd-4ac3-8e56-73a86ca9b07f)
-    (property "Reference" "#PWR014" (at 243.84 46.99 0)
+    (property "Reference" "#PWR018" (at 243.84 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 41.91 0)
@@ -2075,7 +2075,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2108,13 +2108,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.56 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b6c0eb9-118f-4a6a-9079-0d855f0c72b0)
-    (property "Reference" "J30" (at 162.56 33.02 0)
+    (property "Reference" "J5" (at 162.56 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 162.56 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 162.56 27.94 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 162.56 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 27.94 0)
@@ -2126,7 +2126,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J30") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2135,13 +2135,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 193.04 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b992a74-a4e1-4486-b803-ff3a20f84330)
-    (property "Reference" "J35" (at 193.04 58.42 0)
+    (property "Reference" "J18" (at 193.04 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 193.04 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 193.04 53.34 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 193.04 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 53.34 0)
@@ -2153,7 +2153,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J35") (unit 1)
+          (reference "J18") (unit 1)
         )
       )
     )
@@ -2162,13 +2162,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 213.36 27.94 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ceed545-e8e5-4a89-8947-3c2c44331b07)
-    (property "Reference" "J4" (at 213.36 33.02 0)
+    (property "Reference" "J20" (at 213.36 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 2" (at 215.9 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 213.36 27.94 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 213.36 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 27.94 0)
@@ -2180,7 +2180,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J4") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
@@ -2189,13 +2189,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 182.88 40.64 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46312149-f0e5-49d8-88ad-5b2f154ec5d7)
-    (property "Reference" "J6" (at 182.88 45.72 0)
+    (property "Reference" "J12" (at 182.88 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 3" (at 185.42 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 182.88 40.64 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 182.88 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 40.64 0)
@@ -2207,7 +2207,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J6") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -2216,7 +2216,7 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 167.64 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46ccd710-6093-4608-984c-99e750880b62)
-    (property "Reference" "J8" (at 167.64 129.54 0)
+    (property "Reference" "J9" (at 167.64 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack" (at 167.64 132.08 0)
@@ -2233,7 +2233,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -2242,7 +2242,7 @@
   (symbol (lib_id "power:GND") (at 243.84 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a809b2f-4cac-4be8-9e56-470156465a0d)
-    (property "Reference" "#PWR015" (at 243.84 46.99 0)
+    (property "Reference" "#PWR019" (at 243.84 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 41.91 0)
@@ -2258,7 +2258,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2267,7 +2267,7 @@
   (symbol (lib_id "power:+24V") (at 177.8 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 520a6e08-f463-43cb-a33d-c20b7769ed77)
-    (property "Reference" "#PWR012" (at 177.8 138.43 0)
+    (property "Reference" "#PWR09" (at 177.8 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 177.8 131.064 0)
@@ -2283,7 +2283,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2292,7 +2292,7 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 259.08 27.94 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fd5fa6c-f13f-4295-937b-6802ae2d2fe6)
-    (property "Reference" "J10" (at 265.43 28.575 0)
+    (property "Reference" "J24" (at 265.43 28.575 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Fan 1-A" (at 265.43 26.035 0)
@@ -2309,7 +2309,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J10") (unit 1)
+          (reference "J24") (unit 1)
         )
       )
     )
@@ -2318,13 +2318,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 193.04 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62905b6d-f7e6-4544-bd93-7d5762c27a94)
-    (property "Reference" "J31" (at 193.04 45.72 0)
+    (property "Reference" "J17" (at 193.04 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 193.04 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 193.04 40.64 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 193.04 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 40.64 0)
@@ -2336,7 +2336,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J31") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -2345,13 +2345,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 193.04 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66ec6733-4033-4a73-9694-2e6745198b89)
-    (property "Reference" "J42" (at 193.04 71.12 0)
+    (property "Reference" "J19" (at 193.04 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 193.04 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 193.04 66.04 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 193.04 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 66.04 0)
@@ -2363,7 +2363,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J42") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -2372,13 +2372,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 193.04 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 670020dd-7307-422a-bfb0-1fae945444b7)
-    (property "Reference" "J32" (at 193.04 33.02 0)
+    (property "Reference" "J16" (at 193.04 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 193.04 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 193.04 27.94 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 193.04 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 27.94 0)
@@ -2390,7 +2390,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J32") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -2399,7 +2399,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x24") (at 127 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cbee2e2-bc01-4e06-b521-8ecfa48bf6ad)
-    (property "Reference" "J28" (at 129.54 66.675 0)
+    (property "Reference" "J3" (at 129.54 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x24" (at 129.54 69.215 0)
@@ -2438,7 +2438,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J28") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2538,13 +2538,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.56 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 711e80ef-221f-466c-9c68-299ae4f15442)
-    (property "Reference" "J33" (at 162.56 58.42 0)
+    (property "Reference" "J7" (at 162.56 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 162.56 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 162.56 53.34 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 162.56 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 53.34 0)
@@ -2556,7 +2556,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J33") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2565,7 +2565,7 @@
   (symbol (lib_id "power:GND") (at 132.08 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 712cd9ac-3d0c-4bb5-bf78-d5993d4dc58c)
-    (property "Reference" "#PWR01" (at 132.08 168.91 0)
+    (property "Reference" "#PWR04" (at 132.08 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 167.64 0)
@@ -2581,32 +2581,32 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 114.3 73.66 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 116.84 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72f4aeb8-85f5-40a7-a1a4-8bbb1bb260f1)
-    (property "Reference" "#PWR011" (at 114.3 80.01 0)
+    (property "Reference" "#PWR02" (at 116.84 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 118.1108 74.7465 0)
+    (property "Value" "GND" (at 120.6508 74.7465 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.3 73.66 0)
+    (property "Footprint" "" (at 116.84 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 114.3 73.66 0)
+    (property "Datasheet" "" (at 116.84 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e93954ed-80ec-404c-ad5c-333e3e02322e))
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2615,7 +2615,7 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 259.08 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74556d13-7788-42dd-b028-b7c422e1b9a9)
-    (property "Reference" "J13" (at 265.43 59.055 0)
+    (property "Reference" "J27" (at 265.43 59.055 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Fan 2-B" (at 265.43 56.515 0)
@@ -2632,7 +2632,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J13") (unit 1)
+          (reference "J27") (unit 1)
         )
       )
     )
@@ -2641,7 +2641,7 @@
   (symbol (lib_id "power:GND") (at 200.66 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 802fcd9e-b3b2-47c2-9859-37d7ba441a97)
-    (property "Reference" "#PWR03" (at 200.66 49.53 0)
+    (property "Reference" "#PWR015" (at 200.66 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.791 47.1486 0)
@@ -2657,7 +2657,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2666,7 +2666,7 @@
   (symbol (lib_id "power:GND") (at 177.8 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 817713df-4b6d-42fd-b63a-64b8eaf8cd0d)
-    (property "Reference" "#PWR013" (at 177.8 146.05 0)
+    (property "Reference" "#PWR010" (at 177.8 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.9775 143.4943 0)
@@ -2682,7 +2682,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2691,7 +2691,7 @@
   (symbol (lib_id "power:GND") (at 200.66 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85c7d792-f456-41f7-95da-d2d3e3f84782)
-    (property "Reference" "#PWR09" (at 200.66 62.23 0)
+    (property "Reference" "#PWR016" (at 200.66 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.791 59.8486 0)
@@ -2707,7 +2707,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2716,7 +2716,7 @@
   (symbol (lib_id "power:GND") (at 200.66 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a084ed2-2aee-4ab9-aa8b-88d2cf7a8ce6)
-    (property "Reference" "#PWR06" (at 200.66 36.83 0)
+    (property "Reference" "#PWR014" (at 200.66 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.791 34.4486 0)
@@ -2732,7 +2732,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2766,13 +2766,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 139.7 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c9cc29f-3364-4d34-a6d8-9b1871b11d33)
-    (property "Reference" "J44" (at 139.7 152.4 0)
+    (property "Reference" "J4" (at 139.7 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 139.7 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 139.7 157.48 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 139.7 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 157.48 0)
@@ -2785,7 +2785,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J44") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2794,7 +2794,7 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 259.08 38.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e8bfeb5-f0cc-4aa6-9821-8169a37f4f8b)
-    (property "Reference" "J11" (at 265.43 38.735 0)
+    (property "Reference" "J25" (at 265.43 38.735 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Fan 1-B" (at 265.43 36.195 0)
@@ -2811,7 +2811,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J11") (unit 1)
+          (reference "J25") (unit 1)
         )
       )
     )
@@ -2820,7 +2820,7 @@
   (symbol (lib_id "power:GND") (at 187.96 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 952107c2-f598-4a91-ace0-118a1f42c76e)
-    (property "Reference" "#PWR021" (at 187.96 125.73 0)
+    (property "Reference" "#PWR013" (at 187.96 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.9837 122.9289 0)
@@ -2836,7 +2836,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2845,13 +2845,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.56 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95455cc8-b797-45f1-855c-94dab3de0ac3)
-    (property "Reference" "J40" (at 162.56 71.12 0)
+    (property "Reference" "J8" (at 162.56 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 162.56 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 162.56 66.04 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 162.56 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 66.04 0)
@@ -2863,7 +2863,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J40") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2872,7 +2872,7 @@
   (symbol (lib_id "power:GND") (at 243.84 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9decd487-386c-4bdd-9907-4bc85935ca32)
-    (property "Reference" "#PWR016" (at 243.84 67.31 0)
+    (property "Reference" "#PWR020" (at 243.84 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 62.23 0)
@@ -2888,7 +2888,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2897,7 +2897,7 @@
   (symbol (lib_id "power:GND") (at 170.18 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aff742dc-1d9e-43fb-be6e-77aa839db301)
-    (property "Reference" "#PWR08" (at 170.18 49.53 0)
+    (property "Reference" "#PWR06" (at 170.18 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.311 47.1486 0)
@@ -2913,7 +2913,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2922,7 +2922,7 @@
   (symbol (lib_id "power:+24V") (at 248.92 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b422382a-6a5d-47a8-80fe-27e50b8fe343)
-    (property "Reference" "#PWR022" (at 248.92 29.21 0)
+    (property "Reference" "#PWR021" (at 248.92 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 248.92 21.844 0)
@@ -2938,7 +2938,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2947,7 +2947,7 @@
   (symbol (lib_id "power:+24V") (at 187.96 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd3c70ee-1e18-492f-aa6a-2cbc1f942a41)
-    (property "Reference" "#PWR020" (at 187.96 120.65 0)
+    (property "Reference" "#PWR012" (at 187.96 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 187.96 113.284 0)
@@ -2963,7 +2963,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2972,13 +2972,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 213.36 40.64 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd747928-2851-41b9-a01a-5a8dbc911bbe)
-    (property "Reference" "J3" (at 213.36 45.72 0)
+    (property "Reference" "J21" (at 213.36 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 4" (at 215.9 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 213.36 40.64 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 213.36 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 40.64 0)
@@ -2990,7 +2990,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J3") (unit 1)
+          (reference "J21") (unit 1)
         )
       )
     )
@@ -2999,7 +2999,7 @@
   (symbol (lib_id "power:GND") (at 180.34 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0bbd907-6656-4ca0-a2cc-087242739345)
-    (property "Reference" "#PWR05" (at 180.34 85.09 0)
+    (property "Reference" "#PWR011" (at 180.34 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 78.74 0)
@@ -3015,7 +3015,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3024,13 +3024,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 182.88 27.94 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd98715d-698a-4c58-b8d3-3b5b9a1e850d)
-    (property "Reference" "J2" (at 182.88 33.02 0)
+    (property "Reference" "J11" (at 182.88 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 1" (at 185.42 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 182.88 27.94 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 182.88 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 27.94 0)
@@ -3042,7 +3042,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J2") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -3051,7 +3051,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 121.92 157.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d15f7291-cccd-4d90-8c85-f8794fe0df61)
-    (property "Reference" "J45" (at 121.92 152.4 0)
+    (property "Reference" "J2" (at 121.92 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 121.92 165.1 0)
@@ -3063,14 +3063,14 @@
     (property "Datasheet" "~" (at 121.92 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dca232c7-e746-4d62-81bd-1de8b408ee93))
-    (pin "2" (uuid 5ac89659-f106-48e8-a52d-7dd69360ba85))
-    (pin "3" (uuid 5b7892c5-284e-49f3-8b64-ea60a2ac26d8))
-    (pin "4" (uuid 5a54a741-6045-444c-b70d-92586fa570f6))
+    (pin "1" (uuid a0bb4c41-ce56-4512-8f70-60bde0ce41e6))
+    (pin "2" (uuid 0fec9cff-af7a-4d78-9792-edce3c01a558))
+    (pin "3" (uuid e5f92160-095f-40ba-81bb-27c903fb9767))
+    (pin "4" (uuid c6dcf2c7-2063-4120-8a6d-b930f31b852d))
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J45") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3079,13 +3079,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 213.36 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3c02bca-08a3-4123-99f2-25a5d900c642)
-    (property "Reference" "J7" (at 213.36 58.42 0)
+    (property "Reference" "J22" (at 213.36 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 6" (at 215.9 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 213.36 53.34 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 213.36 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 53.34 0)
@@ -3097,7 +3097,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J7") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
@@ -3106,7 +3106,7 @@
   (symbol (lib_id "power:GND") (at 170.18 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8dacdf0-8a71-4b2c-a78e-9f45b52fa099)
-    (property "Reference" "#PWR084" (at 170.18 74.93 0)
+    (property "Reference" "#PWR08" (at 170.18 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.311 72.5486 0)
@@ -3122,7 +3122,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3131,7 +3131,7 @@
   (symbol (lib_id "power:GND") (at 170.18 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df74104b-0d49-4011-9d08-8a7b659c2e4b)
-    (property "Reference" "#PWR02" (at 170.18 36.83 0)
+    (property "Reference" "#PWR05" (at 170.18 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.311 34.4486 0)
@@ -3147,7 +3147,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3156,7 +3156,7 @@
   (symbol (lib_id "power:GND") (at 200.66 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0dfb900-66a1-4342-a8c1-bea0d3c66c23)
-    (property "Reference" "#PWR085" (at 200.66 74.93 0)
+    (property "Reference" "#PWR017" (at 200.66 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.791 72.5486 0)
@@ -3172,7 +3172,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3181,13 +3181,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 162.56 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1788fbe-e4fe-4da5-9c11-3b71664c0881)
-    (property "Reference" "J34" (at 162.56 45.72 0)
+    (property "Reference" "J6" (at 162.56 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 162.56 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 162.56 40.64 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 162.56 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 40.64 0)
@@ -3199,7 +3199,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J34") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3208,13 +3208,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 213.36 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea3b6284-9459-47b7-9189-ef5cde0bf0c9)
-    (property "Reference" "J43" (at 213.36 71.12 0)
+    (property "Reference" "J23" (at 213.36 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 8" (at 215.9 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 213.36 66.04 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 213.36 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 66.04 0)
@@ -3226,7 +3226,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J43") (unit 1)
+          (reference "J23") (unit 1)
         )
       )
     )
@@ -3235,7 +3235,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x24") (at 27.94 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb9ad375-1434-4ff9-98af-0de81679c138)
-    (property "Reference" "J29" (at 27.94 33.02 0)
+    (property "Reference" "J1" (at 27.94 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x24" (at 27.94 35.56 0)
@@ -3274,7 +3274,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J29") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3283,7 +3283,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2") (at 187.96 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec4eb5ed-0f69-45b1-905d-30addc403aaa)
-    (property "Reference" "J1" (at 193.04 78.74 0)
+    (property "Reference" "J15" (at 193.04 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2" (at 188.595 76.2 0)
@@ -3300,7 +3300,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J1") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -3309,7 +3309,7 @@
   (symbol (lib_id "power:GND") (at 50.8 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeac383b-d0bb-453d-93d7-bf75391e3d4f)
-    (property "Reference" "#PWR04" (at 50.8 39.37 0)
+    (property "Reference" "#PWR01" (at 50.8 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 34.29 0)
@@ -3325,7 +3325,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3358,13 +3358,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 182.88 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f491b4ee-2b66-4be3-91e4-e3234cc316bd)
-    (property "Reference" "J41" (at 182.88 71.12 0)
+    (property "Reference" "J14" (at 182.88 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Basler 7" (at 185.42 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-5" (at 182.88 66.04 0)
+    (property "Footprint" "SparkFun-Connectors:SCREWTERMINAL-3.5MM-3" (at 182.88 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 66.04 0)
@@ -3376,7 +3376,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "J41") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -3409,7 +3409,7 @@
   (symbol (lib_id "power:+24V") (at 248.92 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd78cce0-6643-46b4-97fb-d5552f465534)
-    (property "Reference" "#PWR023" (at 248.92 49.53 0)
+    (property "Reference" "#PWR022" (at 248.92 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 248.92 42.164 0)
@@ -3425,7 +3425,7 @@
     (instances
       (project "Datta-OpenField-PCB"
         (path "/5f944be4-9883-4efb-9a3f-08f8440f04e4"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
