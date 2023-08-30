@@ -5,6 +5,14 @@
   )
 
   (paper "USLetter")
+  (title_block
+    (title "Datta Lab Open Field PCB")
+    (date "2023-08-30")
+    (rev "2.0")
+    (company "Research Instrumentation Core Facility")
+    (comment 1 "Harvard Medical School")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
